@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap");
+      .sora {
+        font-family: "Sora", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      }
+      .adlam {
+        font-family: "ADLaM Display", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .add-image {
+        background-image: url("c1-assets/cat-big.png");
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section id="nab-ber">
+        <div class="p-4 flex justify-between items-center lg:justify-around">
+          <div class="flex items-center">
+            <div class="p-2">
+              <img src="c1-assets/logo-header.png" alt="" />
+            </div>
+            <h3
+              class="lg:p-2 lg:sora lg:text-[1.5rem] lg:font-normal lg:flex hidden"
+            >
+              Browse <span class="text-[#FFDC26]">4</span> Pets
+            </h3>
+          </div>
+          <div class="hidden lg:flex">
+            <ul class="flex">
+              <li class="p-2 text-[1.2rem] sora"><a href="">Find a pet</a></li>
+              <li class="p-2 text-[1.2rem] sora"><a href="">Breeds</a></li>
+              <li class="p-2 text-[1.2rem] sora"><a href="">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="gap-1 hidden lg:flex">
+            <img class="p-3" src="c1-assets/bell (1) 1.png" alt="" /><img
+              class="p-3"
+              src="c1-assets/search (2) 1.png"
+              alt=""
+            />
+
+            <button
+              class="px-10 btn text[0.8rem] sora border-[#FFDC26] bg-[#fff]"
+            >
+              Login</button
+            ><button
+              class="px-10 btn bg-[#FFDC26] hover:bg-[#cabc78] text-center text-[0.8rem] sora"
+            >
+              Register
+            </button>
+          </div>
+          <div class="lg:hidden"><img src="c1-assets/bars-3.png" alt="" /></div>
+        </div>
+        <div class="w-[400] h-[1px] lg:hidden bg-[#111111]"></div>
+      </section>
+
+      <!-- banner section part -->
+
+      <section class="relative p-5 lg:px-[80px]">
+        <div class="relative z-10 lg:">
+          <!-- not working janina keno cat img ta text er upore chole ase fix kor te hobe -->
+          <h3 class="adlam text-[2.5rem] text-[#111111]">
+            Pamper Your Pet, <br />
+            Because They Deserve <br />
+            the Best
+          </h3>
+          <p class="sora text-[1rem] text-[#111111] py-4 lg:w-[530px]">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button class="btn px-10 bg-[#FFDC26] sora">Find a pet</button>
+        </div>
+        <div
+          class="absolute top-[300px] lg:top-[-23px] left-[4px] lg:left-[140px] w-[45vh] lg:w-[120vh]"
+        >
+          <img src="c1-assets/cat-big.png" alt="" />
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
